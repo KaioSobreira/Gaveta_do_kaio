@@ -1,3 +1,8 @@
+/*
+There are three sensors, the first one is the HCSR04, a distance sernsor, will set with the trigger and echo, therefore is described in the head what i did define to use in the down below code;
+That way, i'm using a simple temperature sensor to get out the idea of the temperature between -40 celsius degrees and ~120 celsius degrees, called by tempPin;
+In that regard, i'd used too the gas sensor, is the most complex sensor in the system, but is easy to read with clean code attach.
+*/
 #include <LiquidCrystal.h>
 int tempPin = 0; 
 const int p_trig = 3;
